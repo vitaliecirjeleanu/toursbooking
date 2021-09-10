@@ -1,0 +1,32 @@
+.main {
+  margin-top: 11%;
+  padding: 20px 0px 5px 0px;
+  background-color: rgba(232, 237, 240, 0.322);
+}
+
+.main ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.main li {
+  list-style: none;
+}
+
+.main a {
+  text-decoration: none;
+  color: rgb(75, 75, 75);
+}
+
+.main p {
+  text-align: center;
+  color: gray;
+}
+
+.main span {
+  position: relative;
+  top: -5px;
+  margin-left: 10px;
+}

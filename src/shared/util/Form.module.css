@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+/* small form*/
+.form-container-small {
+  padding: 0.5rem 0 2rem 0;
+  height: auto;
+  margin: 6% 30% 10% 30%;
+  font-family: 'Maven Pro', sans-serif;
+  background-color: rgba(52, 213, 241, 0.986);
+  border-radius: 6px;
+  box-shadow: 0 0 4px 0;
+}
+
+.form-container-small h2 {
+  margin: 5% 0;
+  text-align: center;
+}
+
+.form-container-small button {
+  padding: 0.8rem 0;
+  margin-top: 5%;
+  margin-left: 40%;
+  width: 100px;
+  font-weight: bold;
+}
+
+/* large form*/
+.form-container-large {
+  padding: 0.3rem 0 2rem 0;
+  height: auto;
+  margin: 4% 10% 10% 10%;
+  font-family: 'Maven Pro', sans-serif;
+  background-color: rgba(52, 213, 241, 0.986);
+  border-radius: 6px;
+  box-shadow: 0 0 4px 0;
+}
+
+.form-container-large h2 {
+  margin: 2.5% 0;
+  text-align: center;
+}
+
+.form-large {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.dinamic-input label {
+  display: block;
+  font-weight: bold;
+  margin: 1rem 1rem 0.5rem 2.2rem;
+}
+
+.dinamic-input p {
+  position: relative;
+  top: -20px;
+}
+
+.dinamic-input div {
+  height: 52px;
+  margin-top: 0px;
+}

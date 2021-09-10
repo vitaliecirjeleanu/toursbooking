@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+/* small form inputs */
+.input-form-small {
+  margin: 1.3rem 0;
+}
+
+.input-form-small label,
+.input-form-small input,
+.input-form-small textarea {
+  display: block;
+}
+
+.input-form-small p {
+  text-align: center;
+}
+
+.input-form-small label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  margin-left: 15%;
+}
+
+.input-form-small input,
+.input-form-small textarea,
+.input-form-small select {
+  width: 70%;
+  margin-left: 15%;
+  border-radius: 4px;
+  font-family: 'Maven Pro', sans-serif;
+  border: 1px solid #ccc;
+  background: #e2e0e0;
+  padding: 0.5rem 0.4rem;
+}
+
+.input-form-small textarea {
+  resize: vertical;
+}
+
+.input-form-small input:focus,
+.input-form-small textarea:focus,
+.input-form-small select:focus {
+  outline: none;
+  background: #f1eaea;
+  border-color: #c0c0c0;
+}
+
+.input-form-small--invalid p {
+  color: rgba(255, 0, 0, 0.877);
+}
+
+.input-form-small--invalid input,
+.input-form-small--invalid textarea,
+.input-form-small--invalid select {
+  border-color: red;
+}
+
+/* large form inputs */
+.input-form-large {
+  margin: 1rem 1rem 0 2.2rem;
+}
+
+.input-form-large label,
+.input-form-large input,
+.input-form-large textarea {
+  display: block;
+}
+
+.input-form-large textarea {
+  resize: vertical;
+}
+
+.input-form-large p {
+  margin-top: 0;
+  text-align: center;
+}
+
+.input-form-large label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.input-form-large input,
+.input-form-large textarea,
+.input-form-large select {
+  width: 90%;
+  border-radius: 4px;
+  font-family: 'Maven Pro', sans-serif;
+  border: 1px solid #ccc;
+  background: #e2e0e0;
+  padding: 0.5rem 0.4rem;
+}
+
+.input-form-large input:focus,
+.input-form-large textarea:focus,
+.input-form-large select:focus {
+  outline: none;
+  background: #f1eaea;
+  border-color: #c0c0c0;
+}
+
+.input-form-large--invalid p {
+  color: rgba(255, 0, 0, 0.877);
+}
+
+.input-form-large--invalid input,
+.input-form-large--invalid textarea,
+.input-form-large--invalid select {
+  border-color: red;
+}
+
+.input-form-large span {
+  padding: 0;
+}
+
+.btn-plus-minus,
+.btn-plus,
+.btn-minus {
+  position: relative;
+  transition: transform 0.2s;
+  background-color: transparent;
+  border: none;
+}
+
+.btn-plus-minus {
+  top: -26px;
+  left: 84%;
+}
+
+.btn-plus {
+  top: -16px;
+  left: 84%;
+}
+
+.btn-minus {
+  top: -38px;
+  left: 80%;
+}
+
+.btn-plus-minus:hover,
+.btn-plus:hover,
+.btn-minus:hover {
+  cursor: pointer;
+  transform: scale(1.8);
+}
