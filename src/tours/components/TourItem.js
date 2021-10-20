@@ -1,4 +1,5 @@
 import React, { useRef, useState, useEffect, useContext } from 'react';
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 import Map from '../../shared/components/UIElements/Map';
 import Button from '../../shared/components/UIElements/Button';
@@ -170,7 +171,7 @@ const TourItem = props => {
       <section className={classes['map-container']}>
         <Map
           coords={props.tour.locationsCoordinates}
-          zoom={16}
+          zoom={9}
           descriptions={props.tour.days}
         />
       </section>
