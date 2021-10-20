@@ -6,3 +6,13 @@ body {
   margin: 0;
   background: #9bd5f7;
 }
+
+/* for mapbox */
+.mapboxgl-popup-content {
+  padding: 3px 8px 1px !important;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.mapboxgl-popup-close-button {
+  outline: none;
+}
