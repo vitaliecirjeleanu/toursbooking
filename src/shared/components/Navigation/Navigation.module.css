@@ -6,9 +6,7 @@
   width: 100%;
   list-style: none;
   display: flex;
-  flex-direction: row;
-  margin-top: 1.5rem;
-  margin-right: 2rem;
+  align-items: center;
 }
 
 nav li {
@@ -33,8 +31,6 @@ nav li {
   background-color: transparent;
   cursor: pointer;
   font-size: 14px;
-  position: relative;
-  top: -7px;
 }
 
 .nav a:hover,
@@ -44,13 +40,6 @@ nav li {
   background-color: rgba(52, 213, 241, 0.986);
   border-radius: 4px;
   box-shadow: 0 0 2px 0 rgba(253, 253, 253, 0.774);
-}
-
-.link-img {
-  position: relative;
-  top: -10px;
-  margin: 0;
-  padding: 0;
 }
 
 .link-img a:hover {

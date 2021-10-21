@@ -3,7 +3,7 @@
   height: 70px;
   background-color: rgba(91, 230, 255, 0.555);
   display: flex;
-  flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   box-shadow: 0 0 4px 0 rgb(146, 144, 144);
 }
