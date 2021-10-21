@@ -20,6 +20,7 @@ const Map = props => {
       center: coords[0],
       // center: [lng, lat],
       zoom: zoom,
+      cooperativeGestures: true,
     });
 
     const bounds = new mapboxgl.LngLatBounds();
@@ -34,6 +35,7 @@ const Map = props => {
       new mapboxgl.Popup({
         offset: 50,
         closeOnClick: false,
+        focusAfterOpen: false,
       })
         .setLngLat(location)
         .setHTML(`<p>${descriptions[idx]}</p>`)
@@ -51,6 +53,9 @@ const Map = props => {
         right: 100,
       },
     });
+
+    // Add zoom and rotation controls to the map.
+    map.current.addControl(new mapboxgl.NavigationControl());
   }, [coords, descriptions, zoom]);
 
   //////////////////////////////////
